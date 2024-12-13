@@ -1,0 +1,7 @@
+{
+  "parent": "forge:block/fluids/still",
+  "textures": {
+    "still": "tinkersplus:fluid/molten/fiery_still",
+    "flow": "tinkersplus:fluid/molten/fiery_flow"
+  }
+}

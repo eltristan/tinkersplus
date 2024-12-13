@@ -1,0 +1,6 @@
+{
+  "parent": "forge:block/fluids/base",
+  "textures": {
+    "layer0": "tinkersplus:fluid/molten/fiery_flow"
+  }
+}

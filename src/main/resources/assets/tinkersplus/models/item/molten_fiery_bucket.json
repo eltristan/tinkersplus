@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "tinkersplus:item/bucket_base",
+    "layer1": "tinkersplus:item/bucket_overlay"
+  }
+}

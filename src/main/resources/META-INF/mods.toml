@@ -1,0 +1,45 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="MIT"
+
+[[mods]]
+modId="tinkersplus"
+version="${version}" # Esto será reemplazado automáticamente por Gradle
+displayName="TinkersPlus"
+description='''TinkersPlus es una expansión que añade nuevos fluidos y materiales fundidos.
+Compatible con Minecraft 1.19.2 y diseñado para expandir Tinkers' Construct.
+'''
+
+authors="Tu Nombre o Equipo"
+credits="Inspirado en Tinkers' Construct, desarrollado por Team SlimeKnights."
+logoFile="assets/tinkersplus/textures/logo.png"
+modLanguage="java"
+
+[[dependencies.tinkersplus]]
+modId="forge"
+mandatory=true
+versionRange="[43.4.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.tinkersplus]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.19.2,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.tinkersplus]]
+modId="tconstruct"
+mandatory=true
+versionRange="[3.8.4,)"
+ordering="AFTER"
+side="BOTH"
+
+# Dependencia de Twilight Forest
+[[dependencies.tinkersplus]]
+modId="twilightforest"
+mandatory=true
+versionRange="[4.2.15,)"
+ordering="AFTER"
+side="BOTH"
